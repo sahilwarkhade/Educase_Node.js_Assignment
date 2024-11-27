@@ -1,4 +1,7 @@
 // Calculate Distance Function
+
+// The provided function calculates the distance between two geographical points (latitude and longitude) using the Haversine formula, which accounts for the spherical shape of the Earth.
+
 exports.calculateDistance = (lat1, lon1, lat2, lon2) => {
     const toRad = (value) => (value * Math.PI) / 180;
     const R = 6371;
