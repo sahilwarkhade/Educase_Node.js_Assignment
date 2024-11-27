@@ -4,7 +4,7 @@ const addSchoolRoutes = require('./routes/school');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 4000 || process.env.PORT;
 
 // Middleware
 app.use(bodyParser.json());
